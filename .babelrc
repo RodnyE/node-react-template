@@ -6,14 +6,12 @@
   "presets": [
     ["@babel/preset-env", {
         "modules": false,
-        {
-            "targets": {
-                "browsers": [
-                    ">=1%",
-                    "not ie 11",
-                    "not op_mini all"
-                ]
-            }
+        "targets": {
+            "browsers": [
+                ">=1%",
+                "not ie 11",
+                "not op_mini all"
+            ]
         }
     }],
     ["@babel/preset-react", {"runtime": "automatic"}]
